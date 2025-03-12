@@ -3,7 +3,7 @@ name: Create Release on Tag
 on:
   push:
     tags:
-      - "v*.*.*"
+      - "v18.06.9"
   workflow_call:
     inputs:
       tag_name:

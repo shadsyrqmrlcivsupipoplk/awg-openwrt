@@ -1,7 +1,7 @@
 name: Create Release on Tag
 
 on:
-  push:
+  workflow_dispatch:
     tags:
       - "v18.06.9"
   workflow_call:
